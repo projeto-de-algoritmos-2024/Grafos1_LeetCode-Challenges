@@ -36,6 +36,10 @@ Os exercícios abordados são os seguintes
 
 ## Vídeo explicando cada questão
 
+[Binary Tree Level Order Traversal](https://youtu.be/OyWmDNelpIo)
+[Binary Tree Maximum Path Sum](https://youtu.be/PVT_6X1uwjs)
+[Binary Tree Cameras](https://youtu.be/ZJqXDty2WD0)
+
 ## Instalação 
 **Linguagem**: C++ e Python
 
