@@ -11,23 +11,26 @@
 #  2: já foi visitado
 
 class Solution:
+    self.camera = 0
+    self.val = [len(self.root) * 0]
+
     def minCameraCover(self, root):
-        self.camera = 0
-
-        def dfs(node):
-            if not node:
-                return 2
-
-            left = dfs(node.left)
-            right = dfs(node.right)
-
-            if left == 0 or right == 0:
-                self.camera += 1
-                return 1
-
-            if left == 1 or right == 1:
-                return 2
+        if not root:
             return 0
-        if dfs(root) == 0:
-            self.camera += 1
-        return self.camera
+        self.minCameraCover_recursive(root)
+
+    def minCameraCover_recursive(self, root):
+        if root: 
+            if self.val[root.val] != 1:
+                self.val[root] = 1
+                if self.val[root.val-1] is not None and self.val[(root.val-1)/2] != -1 and root.left or root.right:     
+                        self.camera += 1
+                        self.val[root] = -1 # marcando como camera
+                        self.minCameraCover_recursive(root.left)
+                        self.minCameraCover_recursive(root.right)
+                else:
+                    if root.letf or root.right:
+                        self.minCameraCover_recursive(root.left)
+                        self.minCameraCover_recursive(root.right)
+                        
+        return self.camera 
