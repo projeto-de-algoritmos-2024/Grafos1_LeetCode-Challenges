@@ -21,10 +21,18 @@ Os exercícios abordados são os seguintes
 | ------------------ | ---------------- | ----------- |
 | 102. | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/?envType=problem-list-v2&envId=breadth-first-search)| Médio |
 | 124. | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=problem-list-v2&envId=depth-first-search&difficulty=HARD) | Difícil |
-| 968. | [Binary-tree-cameras](https://leetcode.com/problems/binary-tree-cameras/description/?envType=problem-list-v2&envId=depth-first-search&difficulty=HARD) | Difícil |
+| 968. | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/?envType=problem-list-v2&envId=depth-first-search&difficulty=HARD) | Difícil |
 
 ## Screenshots
 
+### Binary Tree Level Order Traversal
+![Binary Tree Level Order Traversal](BFS.JPG)
+
+### Binary Tree Maximum Path Sum
+![Binary Tree Maximum Path Sum](DFS-HARD.JPG)
+
+### Binary Tree Cameras
+![Binary Tree Cameras](Capturadetelade2024-11-1011-58-15.png)
 
 ## Vídeo explicando cada questão
 
